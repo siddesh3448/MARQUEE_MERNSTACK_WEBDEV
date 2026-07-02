@@ -1,0 +1,16 @@
+
+.main{
+    display: grid;
+    gap: 10px;
+    
+}
+
+.box{
+    border-radius: 15px solid white;
+}
+
+
+#box-1{
+    grid-column: 1 / 4;
+    height: 500px;
+}

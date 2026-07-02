@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.install{
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 70px;
+    justify-content: space-around;
+}
+
+nav{
+    display: flex;
+    gap: 35px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    font-size: 26px;
+    font-style: italic;
+    margin: 0;
+    margin-right: 1100px;
+}
+
+#btn{
+    padding: 14px 30px;
+    border: 2px solid black;
+    background: white;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 4px 8px black;
+}
+
+main h1{
+    font-size: 60px;
+    line-height: 1.2;
+    margin: 20px 0;
+}
+
+p{
+    width: 650px;
+    margin: 20px auto;
+    line-height: 1.6;
+    color: #706e6e;
+    font-style: 16px;
+}
+
+.brands{
+    margin-top: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0;
+    align-items: center;
+    width: 100%;
+}
+
+.brands h2{
+    padding: 15px 30px;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 4px 9px black;
+}
+
+
+main{
+    margin-top: 100px;
+}
+
+section{
+    min-height: 50vh;
+    display: flex;
+    flex-direction: row;
+    
+}

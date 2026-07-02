@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <h1 style="text-align:center;">
+        <u>STUDENT REGISTRATION FORM</u>
+    </h1>
+
+    <form>
+
+        <!-- First Name -->
+        <p>
+            <label for="firstname"><strong>First Name :- </strong></label>
+            <input type="text" id="firstname" name="firstname" placeholder="John" maxlength="30">
+            <strong>(max 30 characters a-z and A-Z)</strong>
+        </p>
+
+        <p>
+            <label for="lastname"><strong>Last Name :- </strong></label>
+            <input type="text" id="lastname" name="lastname" placeholder="Deo" maxlength="30">
+            <strong>(max 30 characters a-z and A-Z)</strong>
+        </p>
+
+        <p>
+            <label for="day"><strong>Date of Birth :- </strong></label>
+
+            <select id="day" name="day">
+                <option>Day</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+            </select>
+
+            <select id="month" name="month">
+                <option>Month</option>
+                <option>January</option>
+                <option>February</option>
+                <option>March</option>
+                <option>April</option>
+                <option>May</option>
+                <option>June</option>
+                <option>July</option>
+                <option>August</option>
+                <option>September</option>
+                <option>October</option>
+                <option>November</option>
+                <option>December</option>
+            </select>
+
+            <select id="year" name="year">
+                <option>Year</option>
+                <option>2000</option>
+                <option>2001</option>
+                <option>2002</option>
+                <option>2003</option>
+                <option>2004</option>
+                <option>2005</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="email"><strong>Email ID :- </strong></label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com">
+        </p>
+
+        <p>
+            <label for="mobile"><strong>Mobile Number :- </strong></label>
+            <input type="tel" id="mobile" name="mobile" maxlength="10" placeholder="9876543210" required>
+            <strong>(10 digit number)</strong>
+        </p>
+
+        <p>
+            <strong>Gender :- </strong>
+
+            <label for="male">
+                <input type="radio" id="male" name="gender" value="Male">
+                Male
+            </label>
+
+            <label for="female">
+                <input type="radio" id="female" name="gender" value="Female">
+                Female
+            </label>
+        </p>
+
+        <p>
+            <label for="address"><strong>Address :- </strong></label><br>
+            <textarea id="address" name="address" rows="4" cols="30"></textarea>
+        </p>
+
+        <p>
+            <strong>City</strong>
+            <input type="text" placeholder="City"> 
+            <strong>(max 30 characters a-z and A-Z)</strong>
+        </p>
+       
+        <p>
+           <label for="pin"><strong>Pin Code :- </strong></label>
+            <input type="text" id="pin" name="pin" placeholder="Pin Code">
+        </p>
+
+    </form>
+
+</body>
+</html>

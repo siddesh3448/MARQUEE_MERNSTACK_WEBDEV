@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:linear-gradient(135deg,#6a11cb,#2575fc);
+}
+
+.container{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+}
+
+.form-card{
+    width:420px;
+    padding:40px;
+    border-radius:20px;
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(18px);
+    box-shadow:0 8px 32px rgba(0,0,0,.25);
+    color:white;
+}
+
+.form-card h1{
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.form-card p{
+    text-align:center;
+    margin-bottom:25px;
+    color:#ececec;
+}
+
+.input-group{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:18px;
+}
+
+.input-group label{
+    margin-bottom:8px;
+    font-size:15px;
+}
+
+.input-group input,
+.input-group select{
+    padding:13px;
+    border:none;
+    outline:none;
+    border-radius:10px;
+    background:rgba(255,255,255,.25);
+    color:white;
+    font-size:15px;
+    transition:.3s;
+}
+
+.input-group input::placeholder{
+    color:#e8e8e8;
+}
+
+.input-group input:focus,
+.input-group select:focus{
+    background:white;
+    color:#333;
+    transform:scale(1.02);
+}
+
+button{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    background:#fff;
+    color:#2575fc;
+    font-size:17px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+    margin-top:10px;
+}
+
+button:hover{
+    background:#2575fc;
+    color:white;
+    transform:translateY(-3px);
+}
+
+.login{
+    margin-top:20px;
+}
+
+.login a{
+    color:#fff;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.login a:hover{
+    text-decoration:underline;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css">
+    <title>USING CSS</title>
+    <style>
+        ul {
+            color: red;
+        }
+
+        .styling {
+            font-family: cursive;
+            background-color: beige;
+        }
+
+        * {
+            background-color: rgb(143, 243, 243);
+
+        }
+
+        input:hover[class='Username'] {
+            background-color: blue;
+
+        }
+
+        input:hover[class='Password'] {
+            background-color: red;
+        }
+
+        h1:hover{
+            color: red;
+        }
+
+
+
+        .styling2 {
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><strong><em><u>TYPES OF CSS: </u></em></strong></h1>
+    <ul>
+        <li class="styling">Inline CSS</li>
+        <li class="styling2">Internal CSS</li>
+        <li class="styling">External CSS</li>
+    </ul>
+
+    <p>
+        <label for="Username">
+            Username <input type="text" placeholder="Enter your Name" required class="Username" id="Username">
+        </label>
+        <br>
+        <br>
+        <label for="Password">
+            Password <input type="text" placeholder="Enter your Password" required class="Password" id="Password">
+        </label>
+    </p>
+</body>
+
+</html>

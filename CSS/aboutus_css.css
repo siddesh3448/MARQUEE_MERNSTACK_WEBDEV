@@ -1,0 +1,16 @@
+.centralized {
+      text-align: center;
+    }
+
+    p {
+      color: green;
+    }
+
+    h1,
+    h2 {
+      color: red;
+    }
+
+    .link:hover {
+      color: red;
+    }

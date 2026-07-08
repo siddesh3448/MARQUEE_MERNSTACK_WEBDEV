@@ -19,6 +19,7 @@
     font-size: 80px;
     color: #223942;
     display: flex;
-    position: relative;
-    left: 2250px;
+    position: absolute;
+    right: 0px;
+    
   }

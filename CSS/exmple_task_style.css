@@ -1,0 +1,35 @@
+.anchor{
+    text-decoration: none;
+    color: #1f5f9b;
+}
+
+.icons img{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    transition: 0.2s;
+    border: 5px solid black;
+    border-radius: 50px;
+}
+
+.icons img:hover{
+    transform: scale(1.1);
+}
+
+.icons{
+    display: flex;
+    justify-content: flex-end;   
+    gap: 15px;
+
+    width: fit-content;
+
+    margin-left: auto;           
+
+    border: 3px solid black;
+    padding: 10px;
+}
+
+footer{
+    margin-top: 40px;
+    padding: 20px;
+}

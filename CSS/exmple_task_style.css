@@ -33,3 +33,11 @@ footer{
     margin-top: 40px;
     padding: 20px;
 }
+
+.Table,
+td,
+th{
+    border: 2px solid black;
+    text-align: center;
+    
+}

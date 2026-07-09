@@ -34,10 +34,29 @@ footer{
     padding: 20px;
 }
 
-.Table,
+table{
+    border-collapse: collapse;
+    transition: 0.2s;
+}
+
+table:hover{
+    transform: scale(1.02);
+}
+
+table,
 td,
 th{
     border: 2px solid black;
     text-align: center;
-    
+}
+
+.profile{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    transition:0.2s;
+}
+
+.profile:hover{
+    transform:scale(1.1);
 }

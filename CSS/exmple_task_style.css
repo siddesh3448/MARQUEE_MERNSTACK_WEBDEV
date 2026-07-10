@@ -37,6 +37,7 @@ footer{
 table{
     border-collapse: collapse;
     transition: 0.2s;
+    padding: 10px;
 }
 
 table:hover{

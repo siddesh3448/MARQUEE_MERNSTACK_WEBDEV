@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy, sans-serif;
+}
+
+body {
+    background-color: #f6fafb;
+}
+
+
+.heading {
+    text-align: center;
+    color: #1d3b7e;
+    margin-top: 40px;
+}
+
+.heading h4 {
+    margin-top: 18px;
+    font-size: 18px;
+    color: #555;
+    font-weight: 400;
+}
+
+.card_parent {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    margin-top: 70px;
+    padding: 20px;
+}
+
+.card {
+    width: 400px;
+    height: 590px;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    padding: 35px 28px;
+    position: relative;
+    overflow: hidden;
+}
+
+.whatsapp  i:hover{
+    transform: scale(1.1);
+}
+
+
+.whatsapp {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    font-size: 55px;
+    color: #25D366;
+    transition: 0.2s;
+}
+
+.chat-icon i:hover{
+    transform: scale(1.1);
+}
+
+.chat-icon {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 65px;
+    height: 65px;
+    background: #2347b3;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 28px;
+    transition: 0.2s;
+}
+
+.card-name {
+    text-align: center;
+    color: #1d3b7e;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.card-role {
+    text-align: center;
+    color: #ef686f;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+
+.rating {
+    text-align: center;
+    color: #ffbf00;
+    margin-top: 22px;
+    font-size: 15px;
+}
+
+.rating i {
+    margin: 0 2px;
+}
+
+.review {
+    margin-top: 30px;
+    color: #666;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 22px;
+    height: 22px;
+    background: red;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+

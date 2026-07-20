@@ -726,3 +726,72 @@ body{
 
     font-size:14px;
 }
+
+/*=========================
+      TOP APPS
+=========================*/
+
+.top-apps{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    margin-right:15px;
+}
+
+.app-card{
+
+    width:130px;
+
+    height:40px;
+
+    background:#f2f2f2;
+
+    border-radius:12px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:10px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.app-card:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:0 5px 12px rgba(0,0,0,.12);
+}
+
+.app-card img{
+
+    width:28px;
+}
+
+.app-card span{
+
+    font-size:15px;
+
+    font-weight:600;
+}
+
+.app-card i{
+
+    color:#f35b36;
+
+    font-size:22px;
+}
+
+.app-card.active{
+
+    background:#ffd814;
+}

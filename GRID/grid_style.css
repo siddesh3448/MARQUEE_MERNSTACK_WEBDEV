@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy, sans-serif;
+}
+
+.grid-items {
+    width: 170px;
+    height: 170px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    overflow: hidden;
+
+    background: linear-gradient(
+        180deg,
+        #E63329 0%,
+        #B71C1C 60%,
+        #00072D 100%
+    );
+
+    color: #FADF8D;
+    font-size: 32px;
+    cursor: pointer;
+
+    transition: all 0.4s ease;
+}
+
+
+.grid-items:hover {
+    transform: scale(1.1);
+
+   
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo0cFA5rAu4PIw0nfpqmMURYkZeDx2Qt2GEWJQ4QlUUQ&s=10");
+
+    background-size: 120px 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+
+    color: transparent; 
+
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+#grid-container {
+    width: 100vw;
+    display: grid;
+
+    grid-template-columns: repeat(4, 170px);
+    grid-template-rows: repeat(3, 170px);
+
+    gap: 20px;
+    justify-content: center;
+
+    margin-top: 50px;
+}
